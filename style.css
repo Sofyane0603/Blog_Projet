@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220,220,220);
+  }
+  
+  header {
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav a {
+    color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  article {
+    margin-bottom: 1em;
+  }
+  
+  footer {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  .Poster {
+    width: 100%;
+    margin-left: 40%;
+  }
+
+  .supprimer {
+    margin-left: 200px;
+  }
+  .Accueil{
+    text-align: center;
+    margin-top: 100px;
+  }
+.Accueil a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    background-color: black;
+    color: white;
+  }
+.Connexion {
+  background: linear-gradient(to right, rgb(241,241,241), rgb(95,95,95) )
+}
+.Formulaire {
+  width: 500px;
+  background: rgba(255, 255, 255, .30 ) ;
+  height: 500px;
+  margin-left: 525px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 50px;
+  z-index: 2;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Connect_submit{
+  background: white;
+  margin-left: -50px;
+  margin-top: 200px;
+    border-radius: 30px;
+    background-color:rgb(4, 3, 72);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    position: absolute;
+}
+.Connexion_inscription{
+  margin-top: 100px;
+}
+.Connexion-email{
+padding-top: 50px;
+}
+.Connexion-mdp{
+  margin-top: 100px;
+}
+.Inscription_submit{
+  background: white;
+  margin-left: -50px;
+  margin-top: 100px;
+    border-radius: 30px;
+    background-color:rgb(4, 3, 72);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    position: absolute;
+}
+.Insc_prenom{
+  padding-top: 50px;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.Insc_nom{
+  margin-top: 50px;
+  margin-left: -25px;
+}
+.Insc_email{
+  margin-top: 50px;
+  margin-left: -50px;
+}
+.Insc_mdp{
+  margin-top: 50px;
+  margin-left: -120px;
+}
+.Deja_Inscrit{
+  margin-top: 50px;
+}
+.poste2{
+  width: 500px;
+  height: 300px;
+  background-color: gray;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+.p_content{
+  font-size: medium;
+  margin-left: 20px;
+}
+.p_author{
+  font-size: x-small;
+  text-align: end;
+}
+.supprimer{
+  background: white;
+  margin-left: 380px;
+  margin-top: 100px;
+    border-radius: 30px;
+    background-color:rgb(48, 48, 48);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    position: absolute;
+}
+.post_title{
+  margin-left : 50px;
+  text-decoration: underline;
+}
+.wpost_title{
+  margin-bottom: 30px;
+}
+.poster_submit{
+  background: white;
+  margin-left: 35px;
+  margin-top: 30px;
+    border-radius: 30px;
+    background-color:rgb(48, 48, 48);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    position: absolute;
+}
+.body_succes{
+  background: linear-gradient(to right, rgb(241,241,241), rgb(95,95,95) )
+}
+.Formulaire2 {
+  width: 500px;
+  background: rgba(255, 255, 255, .30 ) ;
+  height: 100px;
+  margin-left: 525px;
+  margin-top: 300px;
+  text-align: center;
+  border-radius: 50px;
+  z-index: 2;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Formulaire2 h3 {
+  padding-top : 20px;
+}
+.manquant{
+  margin-top : -250px;
+  margin-left : 650px;
+}

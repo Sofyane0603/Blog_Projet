@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220,220,220);
+  }
+  
+  header {
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav a {
+    color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  article {
+    margin-bottom: 1em;
+  }
+  
+  footer {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+button{
+margin-left : 300px
+}
+.poste2{
+  width: 300px;
+  height: 400px;
+  background-color: red;
+}
